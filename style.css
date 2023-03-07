@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=PT+Mono&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-family: Poppins;
+  background-color: #030304;
+  color: #ffff;
+}
+header {
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  display: flex;
+  align-items: center;
+  margin-left: 96px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.logo_nav {
+  margin-right: 255px;
+}
+.logo_nav img {
+  width: 40px;
+}
+.link_nav {
+  display: flex;
+  flex-wrap: nowrap;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 41px;
+  text-align: left;
+}
+.link_nav a {
+  color: #ffff;
+  margin-right: 115px;
+}
+/*--------------------------TitleHeader&Content----------------------------*/
+.box_header_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    54deg,
+    rgba(0, 0, 0, 0.9551470246301645) 0%,
+    rgba(0, 206, 44, 0.3781162123052346) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.title_header {
+  font-family: Poppins;
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 136px;
+  letter-spacing: 0em;
+  text-align: right;
+  margin-top: 32px;
+  background: rgb(0, 206, 44);
+  background: linear-gradient(
+    54deg,
+    rgba(0, 206, 44, 1) 0%,
+    rgba(174, 223, 35, 1) 49%,
+    rgba(163, 220, 0, 1) 99%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.img_title {
+  margin-left: 64px;
+}
+.content_header {
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: right;
+  margin-bottom: 56px;
+  color: #d9d9d9;
+}
+/*--------------------------mainCard--------------------------*/
+.box_actualisation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
+  margin-bottom: 55px;
+  font-family: Poppins;
+  font-size: 33px;
+  font-weight: 300;
+  line-height: 41px;
+  text-align: left;
+}
+.box_actualisation img {
+  width: 50px;
+  margin-right: 18px;
+}
+.box_action {
+  display: flex;
+  flex-direction: column;
+  margin-left: 111px;
+  margin-right: 105px;
+}
+.responsive_card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.box_card {
+  display: flex;
+  align-items: center;
+  background-color: #474747;
+  margin-bottom: 50px;
+  margin-right: 184px;
+  margin-top: 49px;
+  width: 512px;
+}
+.box_card img {
+  width: 80px;
+  height: 80px;
+  margin-left: 12px;
+}
+.box_action_title {
+  width: 510px;
+  border-bottom: 0.38px solid #474747;
+  margin-bottom: 18px;
+}
+.action_title {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.box_indice {
+  margin-left: 32px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 100px;
+}
+.indice {
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.pourcentage_hausse {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #a7b2c3;
+}
+.box_cottation {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 111px;
+  margin-right: 105px;
+}
+/*----------------------------------ResponsiveTel--------------------------*/
+@media screen and (max-width: 1200px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    margin-left: 28px;
+    margin-top: 9px;
+  }
+  .logo_nav {
+    margin-right: 64px;
+  }
+  .logo_nav img {
+    width: 12px;
+  }
+  .link_nav {
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 12px;
+    text-align: left;
+  }
+  .link_nav a {
+    color: #ffff;
+    margin-right: 21px;
+  }
+  /*--------------------------TitleHeader&Content----------------------------*/
+  .box_header_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      54deg,
+      rgba(0, 0, 0, 0.9551470246301645) 0%,
+      rgba(0, 206, 44, 0.3781162123052346) 50%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+  .title_header {
+    font-family: Poppins;
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 58px;
+    color: #ffff;
+    text-align: center;
+    margin-top: 12px;
+    background: rgb(0, 206, 44);
+    background: linear-gradient(
+      54deg,
+      rgba(0, 206, 44, 1) 0%,
+      rgba(174, 223, 35, 1) 49%,
+      rgba(163, 220, 0, 1) 99%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .img_title {
+    display: none;
+  }
+  .content_header {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: center;
+    color: #d9d9d9;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  /*--------------------------mainCard--------------------------*/
+  .box_actualisation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+  }
+  .responsive_card {
+    display: flex;
+    flex-direction: column;
+  }
+  .box_actualisation img {
+    margin-right: 12px;
+  }
+  .box_action {
+    display: flex;
+    flex-direction: column;
+    margin-left: 28px;
+    margin-right: 25px;
+  }
+  .box_card {
+    display: flex;
+    align-items: center;
+    background-color: #474747;
+    margin-bottom: 20px;
+    margin-top: 0;
+    width: 100%;
+  }
+  .box_card img {
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+  }
+  .box_action_title {
+    width: 100%;
+    border-bottom: 0.38px solid #474747;
+    margin-bottom: 18px;
+  }
+  .action_title {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    margin-bottom: 9px;
+    text-align: left;
+  }
+  .box_indice {
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .indice {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+  }
+  .pourcentage_hausse {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #a7b2c3;
+    text-align: left;
+  }
+  .box_cottation {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 28px;
+    margin-right: 25px;
+  }
+}
