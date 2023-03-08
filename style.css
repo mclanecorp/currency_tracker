@@ -262,6 +262,7 @@ nav {
     flex-direction: column;
   }
   .box_actualisation img {
+    width: 25px;
     margin-right: 12px;
   }
   .box_action {
